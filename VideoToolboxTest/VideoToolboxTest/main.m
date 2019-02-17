@@ -341,7 +341,6 @@ static void printEncoderProperties(CFDictionaryRef encInfo){
 }
 
 int main(int argc, const char * argv[]) {
-    sleep(2);
     @autoreleasepool {
         CFArrayRef encoders = NULL;
         OSStatus status = VTCopyVideoEncoderList(NULL, &encoders);
@@ -359,6 +358,5 @@ int main(int argc, const char * argv[]) {
         CFRelease(encoders);
     }
 
-    sleep(15);
     return 0;
 }
