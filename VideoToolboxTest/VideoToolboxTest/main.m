@@ -140,9 +140,12 @@ static const char* codecTypeName(CMVideoCodecType codecType){
         case kCMVideoCodecType_H263: return "H.263";
         case kCMVideoCodecType_H264: return "AVC/H.264";
         case kCMVideoCodecType_HEVC: return "HEVC/H.265";
+        case kCMVideoCodecType_HEVCWithAlpha: return "HEVC/H.265 Alpha";
+        case kCMVideoCodecType_DolbyVisionHEVC: return "Dolby Vision HEVC/H.265";
         case kCMVideoCodecType_MPEG4Video: return "MPEG4 Video";
         case kCMVideoCodecType_MPEG2Video: return "MPEG2 Video";
         case kCMVideoCodecType_MPEG1Video: return "MPEG Video";
+        case kCMVideoCodecType_VP9: return "VP9";
         case kCMVideoCodecType_DVCNTSC: return "DV NTSC";
         case kCMVideoCodecType_DVCPAL: return "DV PAL";
         case kCMVideoCodecType_DVCProPAL: return "DVCPro PAL";
